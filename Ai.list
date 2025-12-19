@@ -1,7 +1,7 @@
 # AppleIntelligence分流
 # Update 20251112
 
-
+DOMAIN-SUFFIX, apple-relay.akamaized.net
 DOMAIN-SUFFIX, gateway.icloud.com
 DOMAIN-SUFFIX, apple-relay.apple.com
 DOMAIN-SUFFIX, apple-relay.fastly-edge.com
