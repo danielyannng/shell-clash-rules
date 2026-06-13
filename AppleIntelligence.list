@@ -1,0 +1,35 @@
+# Apple Intelligence / Siri / Private Cloud Compute
+# Loon/Surge compatible domain rule-set.
+# Use this as a standalone list and route it to a proxy policy that supports UDP/QUIC.
+
+# Siri
+DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,gspe1-ssl.ls.apple.com
+
+# Apple Relay / iCloud gateway
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.icloud.com
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,gateway.icloud.com
+
+# Private Cloud Compute / Apple Intelligence support
+DOMAIN-SUFFIX,privatecloudcompute.apple.com
+DOMAIN-SUFFIX,privatecloudcomputed.apple.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com
+
+# Apple service/CDN assets used by AI/Siri flows
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple-mapkit.com
+
+# Cloudflare/Akamai edge endpoints observed in older Apple Intelligence rules
+DOMAIN,cp4.cloudflare.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,akamaized.net
+DOMAIN-SUFFIX,fastly-edge.com
