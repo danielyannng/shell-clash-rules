@@ -1,18 +1,18 @@
-DOMAIN,apple-relay.apple.com,proxy
-DOMAIN,cp4.cloudflare.com,proxy
-DOMAIN,apple-relay.fastly-edge.com,proxy
-DOMAIN,apple-relay.cloudflare.com,proxy
-DOMAIN,guzzoni.apple.com,proxy
-DOMAIN,guzzoni.smoot.apple.com,proxy
-DOMAIN,gspe1-ssl.ls.apple.com,proxy
-
-DOMAIN-SUFFIX,smoot.apple.com,proxy
-DOMAIN-SUFFIX,ls.apple.com,proxy
-
-DOMAIN,mask-api.fe.apple-dns.net,proxy
-DOMAIN,mask-api.icloud.com,proxy
-DOMAIN,mask-t.apple-dns.net,proxy
-DOMAIN,mask.apple-dns.net,proxy
-
-DOMAIN-SUFFIX,mask-h2.icloud.com,proxy
-DOMAIN-SUFFIX,mask.icloud.com,proxy
+DOMAIN, guzzoni. apple.com
+DOMAIN,mask-api.fe.apple-dns.net
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-t.apple-dns.net
+DOMAIN,mask.apple-dns.net
+DOMAIN-SUFFIX, smoot.apple.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX, apple-relay.cloudflare.com
+DOMAIN-SUFFIX, apple-relay fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,gspel-ssl.ls.apple.com
+DOMAIN-SUFFIX, gateway.icloud.com
+DOMAIN-SUFFIX,1s.apple.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com
+DOMAIN-SUFFIX,apps.mzstatic.com
+DOMAIN-KEYWORD, siri
